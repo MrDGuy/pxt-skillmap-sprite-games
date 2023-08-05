@@ -15,28 +15,28 @@
 * completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/understanding-arcade-tutorials.pdf
 * layout: manual
 
-### introduction to functions
+### introduction-to-functions
 
 * name: Introduction to Functions
 * type: tutorial
 * description: Learn how customize functions can reduce your code length
 * tags: introduction, functions
-* next: functions-activity2
+* next: functions-activity1
 * position: 0 0
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/functions/functions-intro
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-func-sample.gif
 
 
-### basic-activity1
+### fuctions-activity1
 
-* name: Meet the robot
+* name: Move 3 Times Function
 * type: tutorial
-* description: Help the robot reach the goal
-* tags: easy, events, commands
-* next: basic-activity2
+* description: Create a function first to condense your code.
+* tags: functions
+* next: functions-activity2
 * position: 0 1
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/interface/first-tutorial
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/functions/functions-tutorial-1
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/first-tutorial-robot-test-2.png
 
 ### basic-activity2
