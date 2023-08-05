@@ -8,7 +8,7 @@ Here is an example of how to use functions to improve your code's efficiency.
 
 ## Defining Functions
 
-Notice that there are two functions that start with def.
+Notice that there are two functions that start with def.  One function is name "move_turn_right" and the other is "move_turn_left".  Each ends the signature with a (): (two paretheses and a colon).
 ```python
 def move_turn_right():
     robot.move_forward()
