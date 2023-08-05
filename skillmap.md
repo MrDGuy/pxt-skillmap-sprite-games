@@ -1,30 +1,30 @@
-# robot
-* name: Coding the Robot in Python
-* description: Learns the basics of python using the robot to move through the tilemap.
-* bannerUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/first-tutorial-robot-test-2.png
-* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/skillmap-background-2.png
+# robot-control-structures
+* name: Coding the Robot in Python learning about Functions, Conditionals and Loops.
+* description: Extending python language concepts with the robot
+* bannerUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/first-tutorial-robot-test-2.png
+* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-robot-control-structures/main/docs/static/skillmap-background-2.png
 * primarycolor: #8E2EC4
 * secondarycolor: #000000
 * tertiarycolor: #FFFFFF
 * highlightcolor: #FF8135
 * completednodecolor: #FFF609
 
-## basic-robot
-* name: Learning to move the robot and create tilemaps
-* description: This will teach you how to move the robot along the tilemap and collect coins.
+## control-structures-robot
+* name: Applying Control Structures to the robot.
+* description: You will learn how to abstract code further with functions, loops and conditionals.
 * completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/understanding-arcade-tutorials.pdf
 * layout: manual
 
-### introduction to Makecode
+### introduction to functions
 
-* name: Learn the Makecode environment
+* name: Introduction to Functions
 * type: tutorial
-* description: Learn the basics of tutorials and tools in makecode
-* tags: introduction, tools
-* next: basic-activity1
+* description: Learn how customize functions can reduce your code length
+* tags: introduction, functions
+* next: functions-activity2
 * position: 0 0
-* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/interface/activity1
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot1.png
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/functions/functions-intro
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-func-sample.gif
 
 
 ### basic-activity1
