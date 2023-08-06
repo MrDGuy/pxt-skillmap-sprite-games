@@ -2,7 +2,7 @@
 * name: Coding the Robot in Python learning about Functions, Conditionals and Loops.
 * description: Extending python language concepts with the robot
 * bannerUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/first-tutorial-robot-test-2.png
-* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-robot-control-structures/main/docs/static/robot-cs-background.png
+* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-background.png
 * primarycolor: #249CA3
 * secondarycolor: #000000
 * tertiarycolor: #FFFFFF
