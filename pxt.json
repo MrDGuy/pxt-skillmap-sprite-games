@@ -19,9 +19,10 @@
         "tutorials/for-loops/for-loop-tutorial-1.md",
         "tutorials/for-loops/for-loop-tutorial-2.md",
         "tutorials/for-loops/for-loop-tutorial-3.md",
-        "tutorials/space/variable-tilemaps-tutorial-1.md",
-        "tutorials/space/variable-tilemaps-tutorial-2.md",
-        "tutorials/space/variable-tilemaps-tutorial-3.md"
+        "tutorials/conditionals/conditionals-tutorial-1.md",
+        "tutorials/conditionals/conditionals-tutorial-2.md",
+        "tutorials/conditionals/conditionals-tutorial-3.md",
+        "tutorials/conditionals/conditionals-tutorial-4.md"
     ],
     "testFiles": [
     ],
