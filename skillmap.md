@@ -178,9 +178,20 @@
 * type: certificate
 * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/if-conditionals-certificate.pdf
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/if-conditionals-certificate.png
+* next: make-your-own-maze
 * position: 1 3
 * rewards:
     * certificate:
         * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/if-conditionals-certificate.pdf
         * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/if-conditionals-certificate.png
 
+
+### make-your-own-maze
+* name: Make your own maze
+* type: tutorial
+* description: Create a tilemap of your own maze and complete it with loops, functions, and if statements.
+* tags: conditionals, loops, functions, customized tilemaps
+* position: 2 4
+
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/conditionals/make-your-own-maze
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-condition-coin-2.png
