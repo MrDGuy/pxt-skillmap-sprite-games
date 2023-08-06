@@ -158,7 +158,7 @@
 * position: 0 2
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/conditionals/conditionals-tutorial-3
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-condition-can-move.gif
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-condition-music-1.gif
 
 ### conditionals-activity4
 * name: Collect Coins and Looping
@@ -169,7 +169,7 @@
 * position: 0 3
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/conditionals/conditionals-tutorial-4
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-condition-can-move.gif
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-condition-coin-1.gif
 
 
 ### conditionals-cert
