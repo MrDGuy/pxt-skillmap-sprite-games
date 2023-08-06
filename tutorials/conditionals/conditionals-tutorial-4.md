@@ -95,7 +95,7 @@ def on_update():
 game.on_update(on_update)
 ```
 
-## Step Four
+## Step Five
 
 It looks like the robot may fall short of the goal.  Think about what part of your code needs to change.  Is the code repeating enough times?
 
