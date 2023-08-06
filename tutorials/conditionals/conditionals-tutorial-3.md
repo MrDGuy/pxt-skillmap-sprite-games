@@ -78,6 +78,7 @@ game.on_update(on_update)
 ## Step Four
 
 Delete the pass inside the ``||robot: goal reached||`` if statement.  Click the ``||music:music||`` category and drag in the ``||music: play toPlay playbackMode||`` code inside where the pass was.
+![Play Music](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-condition-music-1.gif "Play Music" )
 
 ```python
 robot.begin_screen()
@@ -97,6 +98,7 @@ game.on_update(on_update)
 ## Step Four
 
 To pick a new song delete the "music.ba_ding" and retype "music."  A dropdown of different sounds should appear.  Pick the one you would like.
+![Play Music](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-condition-music-2.gif "Play Music" )
 
 ```python
 robot.begin_screen()
@@ -116,6 +118,7 @@ game.on_update(on_update)
 ## Step Four
 
 Next click the ``||game:game||`` category and select ``||game:splash title||`` and move it into the if robot.goal_reached() code.
+![Play Music](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-condition-music-3.gif "Play Music" )
 
 ```python
 robot.begin_screen()
