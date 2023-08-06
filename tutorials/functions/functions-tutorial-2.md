@@ -66,6 +66,8 @@ def make_tower():
 
 ## Step Six
 Your first tower will be on the 3rd column in the tilemap.  Write the code to get the robot ready to make the first tower.  The include the code to make the coin tower.
+![Coin Tower](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-make-tower-1.gif "Make a tower of coins" )
+
 
 ```python
 robot.begin_screen()
@@ -92,6 +94,8 @@ def make_tower():
 
 ## Step Seven
 You can use turn_around within the make_tower function to help further reduce the code. Then return to the bottom so you can call the make_tower again two more times.
+![Coin Tower](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-make-tower-2.gif "Make a tower of coins" )
+
 
 ```python
 robot.begin_screen()
@@ -124,6 +128,8 @@ def make_tower():
 
 ## Step Seven
 Now call the make_tower function three times to make the three towers.  Lastly, write the code to get to the goalTile.
+![Coin Tower](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-make-tower-2.gif "Make a tower of coins" )
+
 
 ```python
 robot.begin_screen()
