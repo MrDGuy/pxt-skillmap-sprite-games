@@ -37,7 +37,7 @@
 * position: 1 0
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/functions/functions-tutorial-1
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/first-tutorial-robot-test-2.png
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/first-tutorial-robot-test-2.png
 
 ### functions-activity2
 
@@ -147,7 +147,7 @@
 * position: 1 2
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/conditionals/conditionals-tutorial-2
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot-cs-condition-can-move-2.gif
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-condition-can-move-2.gif
 
 ### conditionals-activity3
 * name: Goal Music
@@ -158,7 +158,7 @@
 * position: 0 2
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/conditionals/conditionals-tutorial-3
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot-cs-condition-can-move.gif
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-condition-can-move.gif
 
 ### conditionals-activity4
 * name: Collect Coins and Looping
@@ -169,7 +169,7 @@
 * position: 0 3
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/conditionals/conditionals-tutorial-4
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot-cs-condition-can-move.gif
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-condition-can-move.gif
 
 
 ### conditionals-cert
