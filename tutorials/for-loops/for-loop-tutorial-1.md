@@ -18,7 +18,7 @@ robot.turn_left()
 
 ## Step Two
 
-Now click the ``||loops:loops||`` category from the toolbox and drag in the ``||loops:for||`` code to line 1.
+Now click the ``||loops:loops||`` category from the toolbox and drag in the ``||loops:for||`` code to line 5. Notice that there is a 4 in the paretheses. This means that the loop will repeat 4 times, which is what we want!
 
 ```python
 robot.begin_screen()
