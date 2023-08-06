@@ -2,7 +2,7 @@
 * name: Coding the Robot in Python learning about Functions, Conditionals and Loops.
 * description: Extending python language concepts with the robot
 * bannerUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/first-tutorial-robot-test-2.png
-* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-robot-control-structures/main/docs/static/skillmap-background-2.png
+* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-robot-control-structures/main/docs/static/robot-cs-background.png
 * primarycolor: #249CA3
 * secondarycolor: #000000
 * tertiarycolor: #FFFFFF
@@ -34,7 +34,7 @@
 * description: Create a function first to condense your code.
 * tags: functions
 * next: functions-activity2
-* position: 0 1
+* position: 1 0
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/functions/functions-tutorial-1
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/first-tutorial-robot-test-2.png
@@ -46,7 +46,7 @@
 * description: Write two functions and use one inside the other
 * tags: functions
 * next: functions-activity3
-* position: 1 1
+* position: 2 0
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/functions/functions-tutorial-2
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-make-tower-2.gif
@@ -59,7 +59,7 @@
 * description: Help the robot reach the goal by using custom functions
 * tags: customization, functions
 * next: functions-cert
-* position: 2 1
+* position: 3 0
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/functions/functions-tutorial-3
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-func-custom.png
@@ -71,8 +71,8 @@
 * type: certificate
 * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/functions-certificate.pdf
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/functions-certificate.png
-* next: for-loop-activity1
-* position: 3 1
+* next: tilemap-activity1
+* position: 4 0
 * rewards:
     * certificate:
         * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structrues/main/docs/static/functions-certificate.pdf
@@ -86,7 +86,7 @@
 * description: Write the code to generate a tilemap
 * tags: easy, tilemaps
 * next: tilemap-activity2
-* position: 5 2
+* position: 5 0
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/platformer/tilemap-tutorial-1
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemap-customize-1.gif
