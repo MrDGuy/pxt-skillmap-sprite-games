@@ -52,35 +52,32 @@ This was just an introduction and you won't need to change any code.  Now move t
   "tilemap.g.ts": "// Auto-generated code. Do not edit.\nnamespace myTiles {\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile1 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile2 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile3 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile4 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const transparency16 = image.ofBuffer(hex``);\n    //% fixedInstance jres blockIdentity=images._tile\n    export const tile5 = image.ofBuffer(hex``);\n\n    helpers._registerFactory(\"tilemap\", function(name: string) {\n        switch(helpers.stringTrim(name)) {\n            case \"level1\":\n            case \"level1\":return tiles.createTilemap(hex`0a0007000304040b04040b040405090202020f020202100609020f020f020f0202060e020f020f020f02020d09020f020f020f02020609010f0202020f020206080a0a0c0a0a0c0a0a07`, img`\n2 2 2 2 2 2 2 2 2 2 \n2 . . . 2 . . . . 2 \n2 . 2 . 2 . 2 . . 2 \n2 . 2 . 2 . 2 . . 2 \n2 . 2 . 2 . 2 . . 2 \n2 . 2 . . . 2 . . 2 \n2 2 2 2 2 2 2 2 2 2 \n`, [myTiles.transparency16,myTiles.tile1,myTiles.tile3,sprites.dungeon.greenOuterNorthWest,sprites.dungeon.greenOuterNorth0,sprites.dungeon.greenOuterNorthEast,sprites.dungeon.greenOuterEast0,sprites.dungeon.greenOuterSouthWest,sprites.dungeon.greenOuterSouthEast,sprites.dungeon.greenOuterWest0,sprites.dungeon.greenOuterSouth1,sprites.dungeon.greenOuterNorth2,sprites.dungeon.greenOuterSouth2,sprites.dungeon.greenOuterEast2,sprites.dungeon.greenOuterWest2,myTiles.tile5,myTiles.tile2], TileScale.Sixteen);\n        }\n        return null;\n    })\n\n    helpers._registerFactory(\"tile\", function(name: string) {\n        switch(helpers.stringTrim(name)) {\n            case \"startTile\":\n            case \"tile1\":return tile1;\n            case \"goalTile\":\n            case \"tile2\":return tile2;\n            case \"floorTile\":\n            case \"tile3\":return tile3;\n            case \"coinTile\":\n            case \"tile4\":return tile4;\n            case \"transparency16\":return transparency16;\n            case \"wallTile\":\n            case \"tile5\":return tile5;\n        }\n        return null;\n    })\n\n}\n// Auto-generated code. Do not edit.\n"
 }
 ```
-
 ```template
-robot.beginScreen()
+robot.begin_screen()
 move_turn_right()
-robot.turnRight()
+robot.turn_right()
 move_turn_left()
-robot.turnLeft()
+robot.turn_left()
 move_turn_right()
-robot.moveForward()
-function move_turn_right() {
-    robot.moveForward()
-    robot.moveForward()
-    robot.moveForward()
-    robot.moveForward()
-    robot.turnRight()
-    robot.moveForward()
-    robot.moveForward()
-}
+robot.move_forward()
 
-function move_turn_left() {
-    robot.moveForward()
-    robot.moveForward()
-    robot.moveForward()
-    robot.moveForward()
-    robot.turnLeft()
-    robot.moveForward()
-    robot.moveForward()
-}
+def move_turn_right():
+    robot.move_forward()
+    robot.move_forward()
+    robot.move_forward()
+    robot.move_forward()
+    robot.turn_right()
+    robot.move_forward()
+    robot.move_forward()
 
+def move_turn_left():
+    robot.move_forward()
+    robot.move_forward()
+    robot.move_forward()
+    robot.move_forward()
+    robot.turn_left()
+    robot.move_forward()
+    robot.move_forward()
 ```
 
 ```customts
