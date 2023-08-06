@@ -120,67 +120,67 @@
 * type: certificate
 * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/for-loop-certificate.pdf
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/for-loop-certificate.png
-* next: variable-tilemap-activity1
+* next: conditionals-activity1
 * position: 3 1
 * rewards:
     * certificate:
-        * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemaps-certificates.pdf
-        * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemaps-certificate.png
+        * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/for-loop-certificate.pdf
+        * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/for-loop-certificate.png
      
 ### conditionals-activity1
-* name: Variable Tilemaps
+* name: If Statements - Can Move Right
 * type: tutorial
-* description: Store tilemaps as variables to be called upon later
-* tags: intermediate, tilemaps, variables
-* next: variable-tilemap-activity2
-* position: 1 3
+* description: Use a condition inside a for loop to check whether the robot can turn
+* tags: conditionals, if, loops
+* next: conditionals-activity2
+* position: 2 2
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/space/variable-tilemaps-tutorial-1
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-3.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/conditionals/conditionals-tutorial-1
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-condition-can-move.gif
 
 ### conditionals-activity2
-* name: Connecting two tilemaps
+* name: If Else If Statemetns - Can Move Left or Right
 * type: tutorial
-* description: Connect two tilemaps together to reach a goal on level 2
-* tags: intermediate, tilemaps, variables
-* next: variable-tilemap-activity3
-* position: 2 3
+* description: Use a condition inside a for loop to check whether the robot can turn or left
+* tags: conditionals, if else if, loops
+* next: conditionals-activity3
+* position: 1 2
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/space/variable-tilemaps-tutorial-2
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-4.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/conditionals/conditionals-tutorial-2
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot-cs-condition-can-move-2.gif
 
 ### conditionals-activity3
-* name: Customize multi-level tilemaps
+* name: Goal Music
 * type: tutorial
-* description: Write the code to customize multiple tilemaps.
-* tags: intermediate, tilemaps, variables, custom
-* next: variable-tilemap-cert
-* position: 3 3
+* description: Write the code to customize what music plays when the goal is reached.
+* tags: conditionals, if, music
+* next: conditionals-activity4
+* position: 0 2
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/space/variable-tilemaps-tutorial-3
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-4.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/conditionals/conditionals-tutorial-3
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot-cs-condition-can-move.gif
 
 ### conditionals-activity4
-* name: Customize multi-level tilemaps
+* name: Collect Coins and Looping
 * type: tutorial
-* description: Write the code to customize multiple tilemaps.
-* tags: intermediate, tilemaps, variables, custom
-* next: variable-tilemap-cert
-* position: 3 3
+* description: Write the code to collect coins while you move.
+* tags: conditionals, loops
+* next: conditionals-cert
+* position: 0 3
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/space/variable-tilemaps-tutorial-3
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-4.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/conditionals/conditionals-tutorial-4
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot-cs-condition-can-move.gif
 
 
 ### conditionals-cert
 * name: Congrats!
 * kind: completion
 * type: certificate
-* url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-certificate.pdf
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-certificate.png
-* position: 3 4
+* url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/if-conditionals-certificate.pdf
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/if-conditionals-certificate.png
+* position: 1 3
 * rewards:
     * certificate:
-        * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-certificates.pdf
-        * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-certificate.png
+        * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/if-conditionals-certificate.pdf
+        * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/if-conditionals-certificate.png
 
