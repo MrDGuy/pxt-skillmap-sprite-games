@@ -39,17 +39,17 @@
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/functions/functions-tutorial-1
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/first-tutorial-robot-test-2.png
 
-### basic-activity2
+### functions-activity2
 
-* name: Navigate the Robot
+* name: Make Tower
 * type: tutorial
-* description: Help the robot reach the goal and avoid the walls
-* tags: easy, sequencing, events
-* next: basic-activity3
+* description: Write two functions and use one inside the other
+* tags: functions
+* next: functions-activity3
 * position: 1 1
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/interface/second-tutorial
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/seond-tutorial-robot-test-2.png
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/functions/functions-tutorial-2
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-make-tower-2.gif
 
 
 ### basic-activity3
