@@ -71,74 +71,63 @@
 * type: certificate
 * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/functions-certificate.pdf
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/functions-certificate.png
-* next: tilemap-activity1
+* next: for-loop-activity1
 * position: 4 0
 * rewards:
     * certificate:
-        * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structrues/main/docs/static/functions-certificate.pdf
-        * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structrues/main/docs/static/functions-certificate.png
+        * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/functions-certificate.pdf
+        * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/functions-certificate.png
 
 
 
-### tilemap-activity1
-* name: Generate the tilemap before you begin the robot screen
+### for-loop-activity1
+* name: Learn how repeating code can save you time!
 * type: tutorial
-* description: Write the code to generate a tilemap
-* tags: easy, tilemaps
-* next: tilemap-activity2
+* description: Write the code using loops to create a square of coins
+* tags: loops
+* next: for-loop-activity2
 * position: 5 0
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/platformer/tilemap-tutorial-1
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemap-customize-1.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/for-loops/for-loop-tutorial-1
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-for-square-coin.gif
 
-### tilemap-activity2
-* name: Customize a tilemap
+### for-loop-activity2
+* name: Looping over hurdles
 * type: tutorial
-* description: Write the code to customize a tilemap
-* tags: easy, tilemaps
-* next: tilemap-activity3
-* position: 4 2
+* description: Write looping code that will place coins at each gap
+* tags: loops
+* next: for-loop-activity3
+* position: 5 1
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/platformer/tilemap-tutorial-2
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemap-customize-3.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/for-loops/for-loop-tutorial-2
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-for-hurdles.gif
 
-### tilemap-activity3
-* name: Customize a tile
+### for-loop-activity3
+* name: Climbing Stairs
 * type: tutorial
-* description: Write the code to customize a tile
-* tags: easy, tilemaps
-* next: tilemap-activity4
-* position: 3 2
+* description: Write the code to loop up the stairs
+* tags: loops
+* next: for-loop-cert
+* position: 4 1
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/platformer/tilemap-tutorial-3
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemap-customize-tile-3.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/for-loops/for-loop-tutorial-3
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-for-stairs.gif
   
 
-### tilemap-activity4
-* name: Setting location of coins on a tilemap then collecting them
-* type: tutorial
-* description: Create a custom coinTile then place them on your tilemaps
-* tags: easy, tilemaps
-* next: tilemap-cert
-* position: 2 2
-
-* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/platformer/tilemap-tutorial-4
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/third-tutorial-robot-test-2.gif
-
-### tilemap-cert
+### for-loop-cert
 * name: Congrats!
 * kind: completion
 * type: certificate
-* url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemaps-certificate.pdf
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemaps-certificate.png
+* url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/for-loop-certificate.pdf
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/for-loop-certificate.png
 * next: variable-tilemap-activity1
-* position: 1 2
+* position: 3 1
 * rewards:
     * certificate:
         * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemaps-certificates.pdf
         * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/tilemaps-certificate.png
      
-### variable-tilemap-activity1
+### conditionals-activity1
 * name: Variable Tilemaps
 * type: tutorial
 * description: Store tilemaps as variables to be called upon later
@@ -149,7 +138,7 @@
 * url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/space/variable-tilemaps-tutorial-1
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-3.gif
 
-### variable-tilemap-activity2
+### conditionals-activity2
 * name: Connecting two tilemaps
 * type: tutorial
 * description: Connect two tilemaps together to reach a goal on level 2
@@ -160,7 +149,7 @@
 * url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/space/variable-tilemaps-tutorial-2
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-4.gif
 
-### variable-tilemap-activity3
+### conditionals-activity3
 * name: Customize multi-level tilemaps
 * type: tutorial
 * description: Write the code to customize multiple tilemaps.
@@ -171,7 +160,19 @@
 * url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/space/variable-tilemaps-tutorial-3
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-4.gif
 
-### variable-tilemap-cert
+### conditionals-activity4
+* name: Customize multi-level tilemaps
+* type: tutorial
+* description: Write the code to customize multiple tilemaps.
+* tags: intermediate, tilemaps, variables, custom
+* next: variable-tilemap-cert
+* position: 3 3
+
+* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/space/variable-tilemaps-tutorial-3
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-4.gif
+
+
+### conditionals-cert
 * name: Congrats!
 * kind: completion
 * type: certificate
