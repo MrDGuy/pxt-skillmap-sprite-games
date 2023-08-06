@@ -1,5 +1,5 @@
 {
-    "name": "pxt-skillmap-robot-test-2",
+    "name": "pxt-skillmap-robot-control-structures",
     "version": "0.0.1",
     "description": "",
     "dependencies": {
@@ -12,6 +12,7 @@
         "README.md",
         "skillmap.md",
         "tutorials/functions/functions-intro.md",
+        "tutorials/functions/functions-tutorial-test.md",
         "tutorials/functions/functions-tutorial-1.md",
         "tutorials/functions/functions-tutorial-2.md",
         "tutorials/functions/functions-tutorial-3.md",
