@@ -27,7 +27,7 @@
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-func-sample.gif
 
 
-### fuctions-activity1
+### functions-activity1
 
 * name: Move 3 Times Function
 * type: tutorial
