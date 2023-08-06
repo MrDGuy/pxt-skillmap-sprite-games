@@ -52,55 +52,31 @@
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-make-tower-2.gif
 
 
-### basic-activity3
+### functions-activity3
 
-* name: Collect Coins with the robot
+* name: Write your own functions
 * type: tutorial
-* description: Help the robot reach the goal and avoid the walls while picking up coins
-* tags: easy, sequencing, events
-* next: basic-activity4
+* description: Help the robot reach the goal by using custom functions
+* tags: customization, functions
+* next: functions-cert
 * position: 2 1
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/interface/third-tutorial
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/third-tutorial-robot-test-2.gif
-
-### basic-activity4
-
-* name: Place Coins with the robot
-* type: tutorial
-* description: Place the coins as you see
-* tags: easy, sequencing, events
-* next: basic-activity5
-* position: 3 1
-
-* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/interface/fourth-tutorial
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/place-coin-robot.gif
-
-### basic-activity5
-
-* name: Write your first initial with coins
-* type: tutorial
-* description: You will create 1 letter with coins
-* tags: easy, sequencing, events
-* next: beginner-cert
-* position: 4 1
-
-* url: https://github.com/MrDGuy/pxt-skillmap-robot/tutorials/interface/fifth-tutorial
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/robot-draw-initial.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-robot-control-structures/tutorials/functions/functions-tutorial-3
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/third-tutorial-robot-test-2.gif
 
 
-### beginner-cert
+### functions-cert
 * name: Congrats!
 * kind: completion
 * type: certificate
-* url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/beginner-cert-03.pdf
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/beginner-cert-03.png
-* next: tilemap-activity1
-* position: 5 1
+* url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/functions-certificate.pdf
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/functions-certificate.png
+* next: for-loop-activity1
+* position: 3 1
 * rewards:
     * certificate:
-        * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/beginner-cert-03.pdf
-        * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/beginner-cert-03.png
+        * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structrues/main/docs/static/functions-certificate.pdf
+        * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structrues/main/docs/static/functions-certificate.png
 
 
 
