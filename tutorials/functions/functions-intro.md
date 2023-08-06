@@ -2,7 +2,7 @@
 
 ## Functions @unplugged
 
-Here is an example of how to use functions to improve your code's efficiency.
+Here is an example of how to use functions to improve your code's efficiency.  First push play to see what happens when the code runs.
 ![Zig and Zag](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/robot-cs-func-sample.gif "Move and Turn Functions" )
 
 
