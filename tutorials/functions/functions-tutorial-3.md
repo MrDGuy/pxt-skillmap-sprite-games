@@ -7,6 +7,10 @@ In this tutorial you will write as many custom functions as you would like to he
 ## Step One
 
 Think about how you are going to navigate to the coins and to the goalTile. Write at least two functions that may help turn the robot around OR move the robot multiple times OR combine turning and moving OR collecting coings and moving and turning.  Use these functions to get the robot to the goal tile.  Good luck and be creative!
+```python
+def my_function():
+    #your code here.
+```
 
 
 ```assetjson
@@ -32,4 +36,12 @@ Think about how you are going to navigate to the coins and to the goalTile. Writ
             game.reset()
         }
     })
+```
+
+```ghost
+robot.begin_screen()
+robot.turn_left()
+robot.turn_right()
+robot.collect_coin()
+robot.move_forward()
 ```
