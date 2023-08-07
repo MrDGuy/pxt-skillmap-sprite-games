@@ -6,7 +6,7 @@ In this tutorial you will write the function move_3_times so you can more effici
 
 ## Step One
 
-Now click the ``||functions:functions||`` category from the toolbox and drag in the ``||functions:def do_somthing||`` code to line 1.
+Under the Advanced category: Click the ``||functions:functions||`` category from the toolbox and drag in the ``||functions:def do_somthing||`` code to line 1.
 
 ```python
 def do_something():
