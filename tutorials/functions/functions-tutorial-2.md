@@ -118,7 +118,7 @@ def make_tower():
     robot.place_coin()
     robot.move_forward()
     robot.place_coin()
-    turn_around
+    turn_around()
     robot.move_forward()
     robot.move_forward()
     robot.move_forward()
@@ -156,7 +156,7 @@ def make_tower():
     robot.place_coin()
     robot.move_forward()
     robot.place_coin()
-    turn_around
+    turn_around()
     robot.move_forward()
     robot.move_forward()
     robot.move_forward()
