@@ -47,6 +47,12 @@ def move_3_times():
     robot.move_forward()
     robot.move_forward()
     robot.move_forward()
+
+#reference code for toolbox.
+robot.begin_screen()
+robot.turn_left()
+robot.turn_right()
+robot.collect_coin()
 ```
 
 
