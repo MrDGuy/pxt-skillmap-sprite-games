@@ -10,6 +10,12 @@ Think about how you are going to navigate to the coins and to the goalTile. Writ
 ```python
 def my_function():
     #your code here.
+
+#reference code for toolbox.
+robot.begin_screen()
+robot.turn_left()
+robot.turn_right()
+robot.collect_coin()
 ```
 
 
@@ -38,10 +44,4 @@ def my_function():
     })
 ```
 
-```ghost
-robot.beginScreen()
-robot.turnLeft()
-robot.turnRight()
-robot.collectCoin()
-robot.moveForward()
-```
+
