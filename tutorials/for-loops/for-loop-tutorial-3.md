@@ -11,6 +11,9 @@ Using the ``||robot:begin_screen||`` code begin the screen with the hurdle tilem
 
 ```python
 robot.begin_screen()
+
+for i in range(5):
+  #your repeated code here.
 ```
 
 ## Step Two
