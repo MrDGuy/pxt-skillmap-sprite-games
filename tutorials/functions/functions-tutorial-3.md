@@ -39,9 +39,9 @@ def my_function():
 ```
 
 ```ghost
-robot.begin_screen()
-robot.turn_left()
-robot.turn_right()
-robot.collect_coin()
-robot.move_forward()
+robot.beginScreen()
+robot.turnLeft()
+robot.turnRight()
+robot.collectCoin()
+robot.moveForward()
 ```
