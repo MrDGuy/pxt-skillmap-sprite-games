@@ -39,8 +39,8 @@ def move_3_times():
 Either below of above the function you just made write or drag in the ``||robot:begin_screen||`` and below this code call the ``||function:move_3_times||`` code as needed to get your robot to the goal.
 
 ```python
-robot.begin_screen
-move_3_times
+robot.begin_screen()
+move_3_times()
 #the rest of your code goes here.
 
 def move_3_times():
