@@ -81,8 +81,4 @@ robot.collect_coin()
     })
 ```
 
-```ghost
-robot.beginScreen()
-robot.turnLeft()
-robot.turnRight()
-```
+
