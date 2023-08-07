@@ -74,3 +74,9 @@ def move_3_times():
         }
     })
 ```
+
+```ghost
+robot.begin_screen()
+robot.turn_left()
+robot.turn_right()
+```
