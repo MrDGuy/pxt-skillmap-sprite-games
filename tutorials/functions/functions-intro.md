@@ -53,31 +53,32 @@ This was just an introduction and you won't need to change any code.  Now move t
 }
 ```
 ```template
-robot.begin_screen()
+robot.beginScreen()
 move_turn_right()
-robot.turn_right()
+robot.turnRight()
 move_turn_left()
-robot.turn_left()
+robot.turnLeft()
 move_turn_right()
-robot.move_forward()
+robot.moveForward()
+function move_turn_right() {
+    robot.moveForward()
+    robot.moveForward()
+    robot.moveForward()
+    robot.moveForward()
+    robot.turnRight()
+    robot.moveForward()
+    robot.moveForward()
+}
 
-def move_turn_right():
-    robot.move_forward()
-    robot.move_forward()
-    robot.move_forward()
-    robot.move_forward()
-    robot.turn_right()
-    robot.move_forward()
-    robot.move_forward()
-
-def move_turn_left():
-    robot.move_forward()
-    robot.move_forward()
-    robot.move_forward()
-    robot.move_forward()
-    robot.turn_left()
-    robot.move_forward()
-    robot.move_forward()
+function move_turn_left() {
+    robot.moveForward()
+    robot.moveForward()
+    robot.moveForward()
+    robot.moveForward()
+    robot.turnLeft()
+    robot.moveForward()
+    robot.moveForward()
+}
 ```
 
 ```customts
