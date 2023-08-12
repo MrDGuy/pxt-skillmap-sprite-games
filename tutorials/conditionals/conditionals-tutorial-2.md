@@ -35,7 +35,7 @@ Delete the True next to the while and drag in a ``||robot:detect coin||``.
 robot.begin_screen()
 robot.turn_right()
 robot.move_forward()
-while detect_coin():
+while robot.detect_coin():
     pass
 ```
 
@@ -59,7 +59,7 @@ Click in the ``||logic:logic||`` category and drag in the ``||logic:if||`` insid
 robot.begin_screen()
 robot.turn_right()
 robot.move_forward()
-while detect_coin():
+while robot.detect_coin():
     robot.collect_coin()
     if True:
         pass
@@ -73,7 +73,7 @@ Delete the True next to the if.  Click and drag in a ``||robot:can move||`` code
 robot.begin_screen()
 robot.turn_right()
 robot.move_forward()
-while detect_coin():
+while robot.detect_coin():
     robot.collect_coin()
     if robot.can_move(""):
         pass
@@ -87,7 +87,7 @@ The "" inside the parethenses is the direction you want to check if the robot ca
 robot.begin_screen()
 robot.turn_right()
 robot.move_forward()
-while detect_coin():
+while robot.detect_coin():
     robot.collect_coin()
     if robot.can_move("right"):
         pass
@@ -101,7 +101,7 @@ Delete the pass and make sure you write the code exactly where the pass had been
 robot.begin_screen()
 robot.turn_right()
 robot.move_forward()
-while detect_coin():
+while robot.detect_coin():
     robot.collect_coin()
     if robot.can_move("right"):
         robot.turn_right()
@@ -115,7 +115,7 @@ Next drag  in an ``||logic:if||`` code to where line 8 inside the loop but not t
 robot.begin_screen()
 robot.turn_right()
 robot.move_forward()
-while detect_coin():
+while robot.detect_coin():
     robot.collect_coin()
     if robot.can_move("right"):
         robot.turn_right()
@@ -131,7 +131,7 @@ Delete the True next to the if.  Click and drag in a ``||robot:can move||`` code
 robot.begin_screen()
 robot.turn_right()
 robot.move_forward()
-while detect_coin():
+while robot.detect_coin():
     robot.collect_coin()
     if robot.can_move("right"):
         robot.turn_right()
@@ -147,7 +147,7 @@ Write left inside the quotations for the second if statement. Include a ``||robo
 robot.begin_screen()
 robot.turn_right()
 robot.move_forward()
-while detect_coin():
+while robot.detect_coin():
     robot.collect_coin()
     if robot.can_move("right"):
         robot.turn_right()
@@ -163,7 +163,7 @@ Inside the while loop but after the if statement, include a final ``||robot: mov
 robot.begin_screen()
 robot.turn_right()
 robot.move_forward()
-while detect_coin():
+while robot.detect_coin():
     robot.collect_coin()
     if robot.can_move("right"):
         robot.turn_right()
