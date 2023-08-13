@@ -6,19 +6,11 @@
         "device": "*",
         "Sprite Grid": "github:microsoft/arcade-grid#v1.3.0",
         "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
-        "Robot Extension": "github:mrdguy/robot-extension#45f0768a5e0c25e4123c6e65e56115a7d468331b"
+        "Robot Extension": "github:MrDGuy/robot-extension#64fbb69d15070ccc00f00226305a636bbd4b9ec2"
     },
     "files": [
         "README.md",
         "skillmap.md",
-        "tutorials/functions/functions-intro.md",
-        "tutorials/functions/functions-tutorial-test.md",
-        "tutorials/functions/functions-tutorial-1.md",
-        "tutorials/functions/functions-tutorial-2.md",
-        "tutorials/functions/functions-tutorial-3.md",
-        "tutorials/for-loops/for-loop-tutorial-1.md",
-        "tutorials/for-loops/for-loop-tutorial-2.md",
-        "tutorials/for-loops/for-loop-tutorial-3.md",
         "tutorials/conditionals/conditionals-tutorial-1.md",
         "tutorials/conditionals/conditionals-tutorial-2.md",
         "tutorials/conditionals/conditionals-tutorial-3.md",
