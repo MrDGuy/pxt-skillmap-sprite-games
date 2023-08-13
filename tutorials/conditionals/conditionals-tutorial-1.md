@@ -2,7 +2,7 @@
 
 ## Introduction @unplugged
 
-In this tutorial you will write a for loop which will repeat 11 times and as you loop you will check whether you can move right. The end goal is to reach the goal tile all within one for loop besides the begin_screen.
+In this tutorial you will write a function which contains a while loop so you can help navigate your robot.
 ![While Loop](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-1.gif "While Loop" )
 
 ## Step One
