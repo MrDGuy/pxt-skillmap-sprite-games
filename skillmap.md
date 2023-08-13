@@ -36,7 +36,7 @@
 * position: 0 1
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-conditional-loops/tutorials/conditionals/conditionals-tutorial-2
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loops-2.gif
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-2.gif
 
 ### while-loops-3
 * name: One While Loop for an entire tilemap
