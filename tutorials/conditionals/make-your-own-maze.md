@@ -2,67 +2,177 @@
 
 ## Introduction @unplugged
 
-Put all these lessons together to create your own maze
+Put all these lessons together to create your own multi-leveled program with one while loop to reach the goal tile at the final tilemap.
 
 ## Step One
 
-Use the ``||tiles:set current tilemap to map ||`` code to start your robot on the start tile and set up the tilemap.
+Create two custom tilemaps that each contain a startTile and one with a connection tile and the other with a goalTile.  Make sure you create a custom coinTile to place coins on your tilemaps.  Name the first tilemap level1 and the second level2. 
+
+Here is a slideshow showing you how to create custom tilemaps that have a connection tile named door1.
+https://docs.google.com/presentation/d/197ps_WnRzQuTZUjZKKPDIfWs46FLAPVblv8GIuTB6w8/edit?usp=sharing
+
+## Step One
+
+Use the ``||tiles:tilemap ||`` code to create a new tilemap. Click the map and then Create a custom tilemaps that contains a startTile and a connection tile named door1.  Make sure you create a custom coinTile to place coins on your tilemaps.  Name the first tilemap level1.
 
 ```python
-tiles.load_map(tiles.create_map(tilemap(""" """)))
+tiles.create_map(tilemap("""level1"""))
 ```
 
-## Step Two @showhint
+## Step Two
 
-Change the dimensions to 10 x 7. 
-~hint Click here to see how 🕵🏽
+After that in the front of the line of code write tile_map1 =.
 
----
+```python
+tile_map1 = tiles.create_map(tilemap("""level1"""))
+```
 
-![Make a 10x7 tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/tilemap-customize-tile-1.gif "10x7 Tilemap" )
-hint~
+## Step Three
 
+Use the ``||tiles:tilemap ||`` code to create a new tilemap. Click the map and then Create a custom tilemaps that contains a startTile and a goalTile.  Make sure you create a custom coinTile to place coins on your tilemaps.  Name the second tilemap level2.
 
-## Step Three @showhint
-
-Now click on the "My Tiles" and then click the plus sign.  You may make a custom tile or use one from the gallery. 
-~hint Here is how to make a custom startTile 🕵🏽
-
----
-
-![Make a 10x7 tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/tilemap-customize-tile-2.gif  "10x7 Tilemap" )
-hint~
-~hint Here is how to make a startTile from the Gallery 🕵🏽
-
----
-
-![Make a 10x7 tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/tilemap-customize-tile-3.gif  "10x7 Tilemap" )
-hint~
-
-
-You should make as many types of tiles as you would like.  You must make a startTile and a goalTile. Make sure you name them exactly: startTile & goalTile.
+```python
+tile_map1 = tiles.create_map(tilemap("""level1"""))
+tiles.create_map(tilemap("""level2"""))
+```
 
 ## Step Four
 
-Make a coinTile which is just like a regular tile but named "coinTile" exactly.  Wherever you place this on your tilemap a coin will appear.
+After that in the front of the line of code write tile_map2 =.
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-1.png "Customize Tilemap" )
 
-## Step Five @showhint
+```python
+tile_map1 = tiles.create_map(tilemap("""level1"""))
+tile_map2 = tiles.create_map(tilemap("""level2"""))
+```
 
-Click the walls tool to create walls around the edge and any walls you want inside your robot's world.  If you choose to make walls in your world make sure they are different from the non-wall tiles.
-~hint Here is how to make walls 🕵🏽
+## Step Five
 
----
+Load the tilemap tile_map1. Code: tiles.load_map(tile_map1)
+![Customize your tilemap](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot/main/docs/static/variables-tilemaps-2.gif "Customize Tilemap" )
 
-![Add walls](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/tilemap-customize-3.gif "Add walls" )
-hint~
-
+```python
+tile_map1 = tiles.create_map(tilemap("""level1"""))
+tile_map2 = tiles.create_map(tilemap("""level2"""))
+tiles.load_map(tile_map1)
+```
 
 ## Step Six
 
-Use the ``||robot:begin screen ||`` code to start your robot on the start tile and set up the tilemap.  You will now see coins wherever there is a coinTile.
+Use the ``||robot:begin screen ||`` code to start your robot on the start tile and set up the tilemap.
+
+```python
+tile_map1 = tiles.create_map(tilemap("""level1"""))
+tile_map2 = tiles.create_map(tilemap("""level2"""))
+tiles.load_map(tile_map1)
+robot.begin_screen()
+```
+
+## Step Seven
+
+Connect the two tilemaps with ``||tiles:connect tilemap1 and tilemap2 by connection ||`` code.  
+
+```python
+tile_map1 = tiles.create_map(tilemap("""level1"""))
+tile_map2 = tiles.create_map(tilemap("""level2"""))
+tiles.load_map(tile_map1)
+robot.begin_screen()
+tiles.connect_map_by_id(tilemap1, tilemap2, ConnectionKind.door1)
+```
+
+## Step Eight
+Change tiles.connect_map_by_id(tilemap1, tilemap2, ConnectionKind.door1) to tiles.connect_map_by_id(tile_map1, tile_map2, ConnectionKind.door1)
+
+```python
+tile_map1 = tiles.create_map(tilemap("""level1"""))
+tile_map2 = tiles.create_map(tilemap("""level2"""))
+tiles.load_map(tile_map1)
+robot.begin_screen()
+tiles.connect_map_by_id(tile_map1, tile_map2, ConnectionKind.door1)
+```
+
+## Step Eight
+
+Pull in the code from the ``||scene:run code on sprite of kind overlaps tile at location||`` in the ``||scene:scene||`` category under the tilemaps section.
+
+```python
+tile_map1 = tiles.create_map(tilemap("""level1"""))
+tile_map2 = tiles.create_map(tilemap("""level2"""))
+tiles.load_map(tile_map1)
+robot.begin_screen()
+tiles.connect_map_by_id(tile_map1, tile_map2, ConnectionKind.door1)
+
+def on_overlap_tile(sprite, location):
+    pass
+scene.on_overlap_tile(SpriteKind.player, img(""" """), on_overlap_tile)
+```
+
+## Step Nine
+
+Replace the img(""" """) code at the end of the overlap tile code with assets.tile("""door1""")
+
+```pythontile_map1 = tiles.create_map(tilemap("""level1"""))
+tile_map2 = tiles.create_map(tilemap("""level2"""))
+tiles.load_map(tile_map1)
+robot.begin_screen()
+tiles.connect_map_by_id(tile_map1, tile_map2, ConnectionKind.door1)
+
+def on_overlap_tile(sprite, location):
+    pass
+scene.on_overlap_tile(SpriteKind.player, assets.tile("""door1"""), on_overlap_tile)
+```
+
+## Step Ten
+
+Replace the pass in the on_overlap_tile function with ``||tiles:set current tilemap to map||`` code to load tile_map2. Also, include a new ``||robot:begin screen||`` to load the next level properly.
+
+```python
+tile_map1 = tiles.create_map(tilemap("""level1"""))
+tile_map2 = tiles.create_map(tilemap("""level2"""))
+tiles.load_map(tile_map1)
+robot.begin_screen()
+tiles.connect_map_by_id(tile_map1, tile_map2, ConnectionKind.door1)
+
+def on_overlap_tile(sprite, location):
+    tiles.load_map(tile_map2)
+    robot.begin_screen()
+scene.on_overlap_tile(SpriteKind.player, assets.tile("""door1"""), on_overlap_tile)
+```
+
+
+## Step Eleven
+
+Use the ``||robot:begin screen ||`` code to start your robot on the start tile and set up the tilemap.  You will now see coins wherever there is a coinTile.  Write a single while loop to move the robot across both levels.
 
 ```python
 robot.begin_screen()
+
+#code for toolbox:
+def do_something():
+    pass
+for i in range(4):
+    pass
+if robot.detect_coin():
+    robot.collect_coin()
+
+if robot.can_move("right"):
+    robot.turn_right()
+else:
+    robot.turn_left()
+
+while True:
+  pass
+
+robot.move_forward()
+robot.place_coin()
+robot.collect_coin()
+robot.turn_left()
+robot.turn_right()
+robot.goal_reached()
+robot.detect_coin()
+music.play(music.melody_playable(music.magic_wand), music.PlaybackMode.UNTIL_DONE)
+game.splash("Your Text Here.")
+game.reset()
 ```
 
 ## Step Seven
