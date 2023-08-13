@@ -1,8 +1,8 @@
 # robot-conditional-loops
 * name: Coding the Robot in Python learning about While Loops.
 * description: Extending python language concepts with the robot
-* bannerUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/while-loop-1.gif
-* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/skillmap-backgroun-3.png
+* bannerUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-1.gif
+* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/skillmap-backgroun-3.png
 * primarycolor: #A4839F
 * secondarycolor: #78DC52
 * tertiarycolor: #FFFFFF
