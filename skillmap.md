@@ -3,8 +3,8 @@
 * description: Extending python language concepts with the robot
 * bannerUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/while-loop-1.gif
 * backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/skillmap-backgroun-3.png
-* primarycolor: #249CA3
-* secondarycolor: #000000
+* primarycolor: #A4839F
+* secondarycolor: #78DC52
 * tertiarycolor: #FFFFFF
 * highlightcolor: #FF8135
 * completednodecolor: #FFF609
