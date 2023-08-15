@@ -68,7 +68,7 @@ robot.begin_screen()
 
 ## Step Seven
 
-At the left margin below this code bring in a ``||robot:turn right||`` code and then call your ``||functions: move_until_blocked||`` function.  How far does the robot travel?
+At the left margin below this code bring in a ``||robot:turn right||`` code and then call your ``||functions: move_until_wall||`` function.  How far does the robot travel?
 
 ```python
 def move_until_wall():
@@ -77,7 +77,7 @@ def move_until_wall():
 
 robot.begin_screen()
 robot.turn_right()
-move_until_blocked()
+move_until_wall()
 ```
 
 ## Step Eight
@@ -91,10 +91,10 @@ def move_until_wall():
 
 robot.begin_screen()
 robot.turn_right()
-move_until_blocked()
+move_until_wall()
 robot.collect_coin()
 robot.turn_left()
-move_until_blocked()
+move_until_wall()
 ```
 
 
