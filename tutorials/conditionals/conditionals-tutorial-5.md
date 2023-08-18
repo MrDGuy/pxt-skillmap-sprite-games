@@ -16,7 +16,7 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`door1`, function on_overlap_t
 ## Introduction @unplugged
 
 In this tutorial you will create a single while loop to give the robot all the necessary conditions to navigate any pathway to the goalTile across two tilemaps.
-![While Loop](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-4.gif "While Loop" )
+![While Loop](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-5.gif "While Loop" )
 
 ## Step One
 
