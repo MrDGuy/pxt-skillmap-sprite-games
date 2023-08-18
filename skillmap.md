@@ -94,4 +94,4 @@
 * position: 2 4
 
 * url: https://github.com/MrDGuy/pxt-skillmap-robot-conditional-loops/tutorials/conditionals/make-your-own-maze
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-control-structures/main/docs/static/while-loop-5.gif
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-5.gif
