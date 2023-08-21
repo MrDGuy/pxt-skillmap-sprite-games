@@ -4,7 +4,7 @@
 
 ## {Introduction @unplugged}
 
-![Game animation](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/static/tutorials/chase-the-pizza.gif)
+![Game animation](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/chase-the-pizza.gif)
 
 In this tutorial you will create a game with 2 sprites, a ``||sprites:Player||`` sprite and a ``||sprites:Food||`` sprite. The goal of the game is to eat as much pizza as you can before the time runs out! Each time your player catches the pizza, you gain points and the countdown is restarted.
 
@@ -49,7 +49,7 @@ mySprite = sprites.create(img`
 Draw your ``||sprites:Player||`` character by using the image editor for  ``||variables(sprites):set mySprite||``.
 Use the color palette and design tools to draw an image on the canvas. Click **Done** when you are finished.
 
-![Image editor](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/static/tutorials/chase-the-pizza/image-editor-js.gif)
+![Image editor](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/chase-the-pizza/image-editor-js.gif)
 
 ## {Step 4}
 
@@ -129,7 +129,7 @@ let pizza = sprites.create(img`
 
 Use the image editor for ``||variables(noclick):pizza||`` and then select the **Gallery** view. Scroll to find the image of a small pizza (or any other image you like!) and select it to load into the image editor.
 
-![Image gallery](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/static/tutorials/chase-the-pizza/image-gallery-spy.gif)
+![Image gallery](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/chase-the-pizza/image-gallery-spy.gif)
 
 ## {Step 7 @resetDiff}
 
