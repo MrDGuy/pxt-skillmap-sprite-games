@@ -10,13 +10,13 @@ Try this tutorial!
 
 Fly your space plane through the oncoming bogey spacecraft. Can you survive the continuous attack? You start with three lives but you gain more by firing on the enemy ships. You lose a life with every collision, so try to blast away the enemy before they hit you.
 
-![Space plane and attacking spacecraft](/static/tutorials/galga.gif)
+![Space plane and attacking spacecraft](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/galga.gif)
 
 ## {Step 1}
 
 Add code to create a ``||sprites:sprite||``, rename it as ``||variables(noclick):spacePlane||``, and draw a plane or some kind of flying object in it.
 
-![Space plane sprite image](/static/tutorials/galga/space-plane.jpg)
+![Space plane sprite image](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/galga/space-plane.jpg)
 
 ```spy
 let spacePlane = sprites.create(img`
@@ -424,4 +424,4 @@ sprites.onOverlap(SpriteKind.Projectile, SpriteKind.Enemy, function (sprite, oth
 
 Congratulations, you have completed your game! Use the direction buttons to move your space plane to miss the bogeys. Use button **A** to shoot darts at them.
 
-![Space plane and attacking spacecraft](/static/tutorials/galga.gif)
+![Space plane and attacking spacecraft](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/galga.gif)
