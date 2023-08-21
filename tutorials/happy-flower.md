@@ -6,7 +6,7 @@
 
 Flowers make everyone around them happier, especially the bees who get nectar from them. To show this, we can create a flower that sends happy little bees back to the hive.
 
-![Happy thoughts](/static/tutorials/happy-flower/happy-thoughts.gif)
+![Happy thoughts](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/happy-flower/happy-thoughts.gif)
 
 ## {Step 1}
 
