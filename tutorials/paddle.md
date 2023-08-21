@@ -4,7 +4,7 @@
 
 **Paddle** is a 2 player variation of the famous pong game!
 
-![A ball bouncing on paddles](/static/tutorials/paddle.gif)
+![A ball bouncing on paddles](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/paddle.gif)
 
 ## {Step 1}
 
