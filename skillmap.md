@@ -1,97 +1,97 @@
-# robot-conditional-loops
-* name: Coding the Robot in Python learning about While Loops.
-* description: Extending python language concepts with the robot
-* bannerUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-1.gif
-* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/skillmap-background-3.png
+# sprite-games
+* name: Making simple sprite games with players, projectiles, food and enemies.
+* description: Extending python language concepts with the sprites
+* bannerUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/chase-the-pizza.png
+* backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/ferris.png
 * primarycolor: #A4839F
 * secondarycolor: #78DC52
 * tertiarycolor: #FFFFFF
 * highlightcolor: #FF8135
 * completednodecolor: #FFF609
 
-## while-loops-robot
-* name: Using while loops with the robot.
-* description: You will learn how to write conditional loops with While.
+## sprite-games
+* name: Making simple games with sprites
+* description: You will learn how to create and interact with Sprites.
 * completionUrl: https://microsoft.github.io/pxt-skillmap-sample/certificates/understanding-arcade-tutorials.pdf
 * layout: manual
 
-### while-loops-1
+### sprite-games-1
 
-* name: Using While Loops
+* name: Chase the Pizza
 * type: tutorial
-* description: Learn how while loops can be used under different circumstances.
-* tags: introduction, while loops, functions
-* next: while-loops-2
+* description: Create a simple game using sprites.
+* tags: Sprites
+* next: sprite-games-2
 * position: 0 0
 * 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-conditional-loops/tutorials/conditionals/conditionals-tutorial-1
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-1.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-sprite-games/tutorials/chase-the-pizza
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/chase-the-pizza.gif
 
-### while-loops-2
-* name: Follow Coins
+### sprite-games-2
+* name: Lemon Leak
 * type: tutorial
-* description: Use a detect coin condition to follow coins in a while loop
-* tags: conditionals, loops
-* next: while-loops-3
-* position: 0 1
+* description: Create a simple game using sprites.
+* tags: Sprites
+* next: sprite-games-3
+* position: 1 0
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-conditional-loops/tutorials/conditionals/conditionals-tutorial-2
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-2.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-sprite-games/tutorials/lemon-leak
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/lemon-leak.gif
 
-### while-loops-3
-* name: One While Loop for an entire tilemap
+### sprite-games-3
+* name: Happy Flower
 * type: tutorial
-* description: Write a single while loop which moves the robot until the goal is reached.
-* tags: conditionals, loop
-* next: while-loops-4
-* position: 0 2
+* description: Create a simple game using sprites.
+* tags: Sprites
+* next: sprite-games-4
+* position: 2 0
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-conditional-loops/tutorials/conditionals/conditionals-tutorial-3
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-3.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-sprite-games/tutorials/happy-flower
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/happy-flower.gif
 
-### while-loops-4
-* name: One While Loop to Collect Coins and Reach Goal
+### sprite-games-4
+* name: Galga
 * type: tutorial
-* description: Write a single while loop which moves the robot until the goal is reached and collect coins along the way
-* tags: conditionals, loops
-* next: while-loops-5
-* position: 0 3
+* description: Create a simple game using sprites.
+* tags: Sprites Projectiles Enemies
+* next: sprite-games-5
+* position: 3 0
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-conditional-loops/tutorials/conditionals/conditionals-tutorial-4
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-4.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-sprite-games/tutorials/galga
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/galga.gif
 
-### while-loops-5
-* name: One While Loop for multiple tilemaps
+### sprite-games-5
+* name: Paddle
 * type: tutorial
-* description: Write a single while loop which moves the robot until the goal is reached across two tilemaps.
-* tags: conditionals, loops
+* description: Make a game like block breaker
+* tags: Sprites
 * next: while-loops-cert
-* position: 1 3
+* position: 4 0
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-conditional-loops/tutorials/conditionals/conditionals-tutorial-4
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-5.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-sprite-games/tutorials/paddle
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/paddle.gif
 
 
 ### while-loops-cert
 * name: Congrats!
 * kind: completion
 * type: certificate
-* url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-certificate.pdf
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-certificate.png
+* url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/while-loop-certificate.pdf
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/while-loop-certificate.png
 * next: make-your-own-maze
-* position: 1 4
+* position: 5 0
 * rewards:
     * certificate:
-        * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-certificate.pdf
-        * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-certificate.png
+        * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/while-loop-certificate.pdf
+        * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/while-loop-certificate.png
 
 
 ### make-your-own-maze
-* name: Make your own maze
+* name: Make your own game
 * type: tutorial
 * description: Create a tilemap of your own maze and complete it with loops, functions, and if statements.
 * tags: conditionals, loops, functions, customized tilemaps
-* position: 2 4
+* position: 5 1
 
-* url: https://github.com/MrDGuy/pxt-skillmap-robot-conditional-loops/tutorials/conditionals/make-your-own-maze
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-robot-conditional-loops/main/docs/static/while-loop-5.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-sprite-games/tutorials/conditionals/make-your-own-maze
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/while-loop-5.gif
