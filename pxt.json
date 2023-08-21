@@ -11,11 +11,11 @@
     "files": [
         "README.md",
         "skillmap.md",
-        "tutorials/conditionals/conditionals-tutorial-1.md",
-        "tutorials/conditionals/conditionals-tutorial-2.md",
-        "tutorials/conditionals/conditionals-tutorial-3.md",
-        "tutorials/conditionals/conditionals-tutorial-4.md",
-        "tutorials/conditionals/make-your-own-maze.md"
+        "tutorials/chase-the-pizza.md",
+        "tutorials/lemon-leak.md",
+        "tutorials/happy-flower.md",
+        "tutorials/galga.md",
+        "tutorials/paddle.md"
     ],
     "testFiles": [
     ],
