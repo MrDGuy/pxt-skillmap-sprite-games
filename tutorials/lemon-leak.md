@@ -4,7 +4,7 @@
 
 ## {Introduction @unplugged}
 
-![Game animation](/static/tutorials/lemon-leak.gif)
+![Game animation](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/lemon-leak.gif)
 
 Hey, let's make a game where wild strawberries are out to attack our lemon player. The goal is to keep the lemon from losing its juice by avoiding the oncoming strawberries. The lemon will leak some of its juice when strawberries collide with it.
 
@@ -12,7 +12,7 @@ Hey, let's make a game where wild strawberries are out to attack our lemon playe
 
 First, ``||scene:set background color||`` to ``purple``. Create a new sprite called ``||variables(noclick):mySprite||``. Click on the image editor icon, go to the image galler, and select the lemon. Put in code to ``||controller:move mySprite||`` with the controller.
 
-![Pick the lemon image](/static/tutorials/lemon-leak/pick-a-lemon-js.gif)
+![Pick the lemon image](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/lemon-leak/pick-a-lemon-js.gif)
 
 ```spy
 scene.setBackgroundColor(10)
@@ -146,4 +146,4 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, ot
 
 That's it! Now keep moving the lemon and try not lose too much juice. Everytime a strawberry hits your lemon, it leaks some juice and the strawberry team gets points. See if you can keep the juice points down during the `30` seconds of play.
 
-![Playing Lemon Leak](/static/tutorials/lemon-leak/play-lemon-leak.jpg)
+![Playing Lemon Leak](https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/lemon-leak/play-lemon-leak.jpg)
