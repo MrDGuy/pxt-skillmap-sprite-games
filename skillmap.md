@@ -3,8 +3,8 @@
 * description: Extending python language concepts with the sprites
 * bannerUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/tutorials/chase-the-pizza.png
 * backgroundurl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/ferris.png
-* primarycolor: #A4839F
-* secondarycolor: #78DC52
+* primarycolor: #87F2FF
+* secondarycolor: #249CA3
 * tertiarycolor: #FFFFFF
 * highlightcolor: #FF8135
 * completednodecolor: #FFF609
