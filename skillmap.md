@@ -78,7 +78,7 @@
 * type: certificate
 * url: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/while-loop-certificate.pdf
 * imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/while-loop-certificate.png
-* next: make-your-own-maze
+* next: make-your-own-game
 * position: 5 0
 * rewards:
     * certificate:
