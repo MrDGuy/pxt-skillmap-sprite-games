@@ -14,7 +14,8 @@
         "tutorials/lemon-leak.md",
         "tutorials/happy-flower.md",
         "tutorials/galga.md",
-        "tutorials/paddle.md"
+        "tutorials/paddle.md",
+        "tutorials/make-your-own-game.md"
     ],
     "testFiles": [
     ],
