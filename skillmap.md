@@ -86,12 +86,12 @@
         * preview: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/while-loop-certificate.png
 
 
-### make-your-own-maze
+### make-your-own-game
 * name: Make your own game
 * type: tutorial
-* description: Create a tilemap of your own maze and complete it with loops, functions, and if statements.
-* tags: conditionals, loops, functions, customized tilemaps
+* description: Create a game using sprites and game dynamics.
+* tags: sprites, overlap, games
 * position: 5 1
 
-* url: https://github.com/MrDGuy/pxt-skillmap-sprite-games/tutorials/conditionals/make-your-own-maze
-* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/while-loop-5.gif
+* url: https://github.com/MrDGuy/pxt-skillmap-sprite-games/tutorials/make-your-own-game
+* imageUrl: https://raw.githubusercontent.com/MrDGuy/pxt-skillmap-sprite-games/main/docs/static/make-your-own-game-boss.gif
